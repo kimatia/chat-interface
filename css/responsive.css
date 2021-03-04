@@ -1,0 +1,34 @@
+@media screen and (min-width:800px) {
+
+	.contacts {
+    width: calc(50% - 1px);
+    border-right: 1px solid black;
+    display: initial;
+  }
+
+  .contacts__search {
+    border-right: none;
+  }
+  .chat-actions {
+    border-left: none;
+  }
+
+  .messages {
+    display: initial;
+    width: 50%;
+  }
+  .exit-messages {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1000px) {
+
+	.contacts {
+    width: calc(40% - 1px);
+  }
+
+  .messages {
+    width: 60%;
+  }
+}
